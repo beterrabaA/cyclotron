@@ -12,7 +12,7 @@ function cyclotron(size,particle) {
       for (let i = 0; i < size; i++) {
         for (let j = 0; j < size; j++) {
           if (i === 0 || j === 0 || i === size - 1 || j === size - 1) {
-            matrix[i][j] = 'p';
+            matrix[i][j] = particle;
             matrix[size -1][size -1] = '1'
             matrix[size -2][size -2] = particle
           }
