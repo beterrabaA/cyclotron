@@ -1,4 +1,4 @@
-function cyclotron(size,particle) {
+function cyclotron(particle,size) {
     const matrix = Array.from({ length: size }, () => Array.from({ length: size }, () => '1'));
   
     if (particle === 'e') {
@@ -34,9 +34,9 @@ function cyclotron(size,particle) {
   }
   
   console.log(cyclotron(5)); 
-  console.log(cyclotron(4, 'e')); 
-  console.log(cyclotron(4,'p')); 
-  console.log(cyclotron(6,'p'));
-  console.log(cyclotron(4,'n')); 
+  console.log(cyclotron('e',4)); 
+  console.log(cyclotron('p',4)); 
+  console.log(cyclotron('p',6));
+  console.log(cyclotron('n',4)); 
 
   
