@@ -1,5 +1,5 @@
 # Cyclotron
 
-## Desafio de algorithms and Data Structure
+## Algorithms and Data Structure
 
-### Nesse desafio foi proposto a criação de uma função que recebe dois parametros.Como output é retornado uma matrix de arrays contando com espaço padrão '1' e a particula injetada:'e','p','n'; formando assim sua estrutura unica.
+### In this challenge it was proposed to create a function that takes two parameters. As output is returned a matrix of arrays counting with standard space '1' and the injected particle:'e','p','n'; thus forming its unique structure.
