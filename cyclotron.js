@@ -1,4 +1,4 @@
-function cyclotron(size,particle) {
+function cyclotron(particle,size) {
     const matrix = Array.from({ length: size }, () => Array.from({ length: size }, () => '1'));
   
     if (particle === 'e') {
@@ -37,14 +37,14 @@ function cyclotron(size,particle) {
   console.log(cyclotron(5)); 
 
   // Accelerating an electron:
-  console.log(cyclotron(4, 'e')); 
+  console.log(cyclotron('e',4)); 
 
   // Accelerating a proton:
-  console.log(cyclotron(4,'p')); 
+  console.log(cyclotron('p',4)); 
   // Case: 6x6
-  console.log(cyclotron(6,'p'));
+  console.log(cyclotron('p',6));
 
   // Accelerating a neutron:
-  console.log(cyclotron(4,'n')); 
+  console.log(cyclotron('n',4)); 
 
   
